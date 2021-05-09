@@ -1,3 +1,5 @@
+// noinspection JSUnresolvedVariable,JSUnresolvedFunction
+
 game
 export const ATTACK = attack
 export const ATTACK_POWER = 30

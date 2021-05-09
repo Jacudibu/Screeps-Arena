@@ -17,7 +17,7 @@ if (!dest) {
 
 const getOptions = (arena) => {
   return {
-    input: `${arena}/main.ts`,
+    input: `${arena}/main.mjs`,
     external: ["game", "arena"], // <-- suppresses the warning
     output: {
       dir: arena.replace("src/","dist/"),
